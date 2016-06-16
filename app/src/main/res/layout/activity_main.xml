@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.app.onkarn.compareimage.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:text="Image Layer 1"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/layer1Image1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image" />
+
+            <ImageView
+                android:id="@+id/layer1Image2"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect1" />
+
+            <ImageView
+                android:id="@+id/layer1Image3"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect2" />
+
+            <ImageView
+                android:id="@+id/layer1Image4"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect3" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.app.onkarn.compareimage.ResizableImageView
+                android:id="@+id/imageLayer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/image" />
+
+            <com.app.onkarn.compareimage.ResizableImageView
+                android:id="@+id/imageLayer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/image_effect3" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/rlImage"
+            android:src="@drawable/circle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/llLayer2"
+            android:layout_margin="10dp"
+            android:text="Image Layer 2"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/llLayer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/layer2Image1"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect3" />
+
+            <ImageView
+                android:id="@+id/layer2Image2"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect2" />
+
+            <ImageView
+                android:id="@+id/layer2Image3"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image_effect1" />
+
+            <ImageView
+                android:id="@+id/layer2Image4"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
