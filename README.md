@@ -1,6 +1,6 @@
 #Android Compare Image
 [![Platform](https://img.shields.io/badge/platform-android-yellow.svg)]()
-[![Programming Language](https://img.shields.io/badge/language-java-red.svg)]()
+[![Programming Language](https://img.shields.io/badge/language-java-orange.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](/LICENSE.md)
 
