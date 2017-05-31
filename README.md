@@ -16,8 +16,8 @@ Compare different images with their revisions
 
 ## Screens
 
-<img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen1.gif" width="350" height="650">
-<img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen2.gif" width="350" height="650">
+<img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen1.gif" width="200" height="371">
+<img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen2.gif" width="200" height="371">
 
 ## Usage
 
