@@ -1,4 +1,5 @@
-#Android Compare Image
+# Android Compare Image
+
 [![Platform](https://img.shields.io/badge/platform-android-yellow.svg)]()
 [![Programming Language](https://img.shields.io/badge/language-java-orange.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
@@ -7,11 +8,18 @@
 
 Compare different images with their revisions
 
-##Screens
+## Table of content
+- [Screens](#screens)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
+
+## Screens
+
 <img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen1.gif" width="350" height="650">
 <img src="https://raw.github.com/Onkarn92/CompareImage/master/screens/screen2.gif" width="350" height="650">
 
-##Usage
+## Usage
 
 For a working implementation of this project see the app/ folder.
 
@@ -19,17 +27,12 @@ Note: No need to add any Dependency or Library.
 
 Feel free to open an issue or Pull request
 
-
-##Developed By
-Onkar Nene
-
-##Credits
+## Contributors
 
 * Onkar nene - onkarnene.92@gmail.com
 * Gaurav Shukla
 
-
-##License
+## License
 
 ```
 MIT License
